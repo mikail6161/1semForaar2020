@@ -1,3 +1,77 @@
 /**
  * fil: css/style.css
  **/
+
+
+
+/* Google Fonts her: */
+@import url('https://fonts.googleapis.com/css?family=Coda+Caption:800&display=swap');
+
+body {
+    background-color: darkviolet; /* bg farve */
+    
+     background-image: url(../images/images/DSC07749.JPG) ;  /* bg img */
+    color: #ffffff; /* txt farves*/
+    background-size: cover; 
+}
+
+p {
+    color: aquamarine;
+    background-color: #000;
+    width: 33%;
+    font-size: large;
+    /* her bruges en google fonts coda caption*/
+    font-family:'Coda Caption', sans-serif;
+    padding: 24px;
+    margin: 48px;
+        
+}
+/* en id # */
+#red {
+    position: absolute; 
+    top: 500px;
+    left:935px;
+    color: chartreuse;
+    transform: rotate(25deg)
+}
+
+.to {
+    color: crimson;
+    margin-left: 500px;
+    position: relative;
+    left: 480px;
+    transform: rotate(25deg);      
+}
+    
+.galleri {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    
+    
+}
+
+
+
+
+nav
+
+{
+    background-color: #000;
+    color: #fff;
+}
+
+li {
+    display: inline;
+    font-size: 30px;
+    font-family:cursive;
+    
+    
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    padding-right: 450px;
+}
+
